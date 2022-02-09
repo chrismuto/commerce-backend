@@ -17,6 +17,7 @@ ProductTag.init(
       references: {
         model: 'Product',
         key: 'id',
+        onDelete: 'restrict'
       },
     },
     tag_id: {
